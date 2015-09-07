@@ -1,5 +1,5 @@
-var test = require('tape');
 var calculator = require('../lib/calculator');
+var test = require('tape');
 
 test('calculator.metric without a precision specified should return the ' +
     'correct BMI', function(t) {

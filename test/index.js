@@ -1,5 +1,5 @@
-var test = require('tape');
 var index = require('..');
+var test = require('tape');
 
 test('index.imperial should be a function', function(t) {
   t.plan(1);

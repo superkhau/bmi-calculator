@@ -1,5 +1,5 @@
 {
-  "name": "@superkhau/bmi",
+  "name": "@superkhau/bmi-calculator",
   "version": "1.0.0",
   "description": "A BMI (body mass index) calculator.",
   "main": "index.js",
@@ -15,11 +15,12 @@
   "scripts": {
     "test": "tape 'test/*.js'|faucet && tape 'test/functional/*.js'|faucet",
     "ftest": "tape 'test/functional/*.js'|faucet",
-    "utest": "tape 'test/*.js'|faucet"
+    "utest": "tape 'test/*.js'|faucet",
+    "publish": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/superkhau/bmi.git"
+    "url": "https://github.com/superkhau/bmi-calculator.git"
   },
   "keywords": [
     "bmi",
@@ -28,7 +29,7 @@
   "author": "Simon Ho",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/superkhau/bmi/issues"
+    "url": "https://github.com/superkhau/bmi-calculator/issues"
   },
-  "homepage": "https://github.com/superkhau/bmi"
+  "homepage": "https://github.com/superkhau/bmi-calculator"
 }
