@@ -5,7 +5,7 @@ test('FT it should return the correct bmi given metric measures', function(t) {
   t.plan(1);
 
   var expected = 24.9;
-  var actual = bmiCalculator.metric(72, 170);
+  var actual = bmiCalculator.metric(170, 72);
 
   t.equal(expected, actual);
 });
